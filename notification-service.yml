@@ -1,0 +1,17 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: notification-service
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: a.elghazoui2000@gmail.com
+    password: mnzd wsmr hcxh gdbu
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
